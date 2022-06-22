@@ -1,0 +1,92 @@
+/* changes the background color of the website*/
+
+*{
+    box-sizing: border-box;
+}
+/*helps makes the tabs scroll down to their area
+*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(0, 140, 255);
+}
+
+.portfolio {
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #2a607c;
+    color: #fff;
+    box-sizing: border-box;
+    width:100%;
+    border: 20px;
+    float:left;
+    display: inline-block;
+}
+
+ h1 {
+    font-size: 48px;
+}
+ 
+.portfolio ul li {
+    float: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background-color: #2a607c;
+    display: inline-block;
+  }
+
+a {
+    font-size: 25px;
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:  rgb(255, 255, 255);
+}
+
+
+.about-me h2{
+    float: left;
+    Padding: 15px;
+    font-size: 50px;
+    color:rgb(255, 163, 50);
+    width: 320px;
+    padding: 10px;
+    border: 5px;
+    margin: 20px;
+    display:flex;
+}
+.about-me p{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.work h3{
+    Padding: 15px;
+    font-size: 50px;
+    color:rgb(255, 163, 50);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+}
+
+
+.contact-me h4{
+    Padding: 10px;
+    font-size: 30px;
+    color:rgb(255, 163, 50);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    margin-top: 20%;
+    display:flex;
+}
+
+
+.float-left {
+    float: left;
+    margin-left: 25px;
+    display:flex;
+}
+
+
